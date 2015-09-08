@@ -7,5 +7,6 @@
  * @return {Number} The given numbered, but doubled
  */
 module.exports = function double(num) {
-
+    num+= num;
+    return num;
 };
